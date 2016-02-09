@@ -12,3 +12,8 @@ class AstronomyScraperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class DayConditions(scrapy.Item):
+    moon_phase = scrapy.Field()
+    temperature = scrapy.Field()
