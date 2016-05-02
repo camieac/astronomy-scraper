@@ -25,3 +25,8 @@ class AstronomyDay(scrapy.Item):
     wind = scrapy.Field()
     moon = scrapy.Field()
     pass
+
+
+class DayConditions(scrapy.Item):
+    moon_phase = scrapy.Field()
+    temperature = scrapy.Field()
