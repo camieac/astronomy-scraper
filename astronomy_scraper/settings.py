@@ -14,7 +14,7 @@ BOT_NAME = 'astronomy_scraper'
 SPIDER_MODULES = ['astronomy_scraper.spiders']
 NEWSPIDER_MODULE = 'astronomy_scraper.spiders'
 
-
+WUNDERGROUND_API_KEY = "ed16ee5324bbd0af"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'astronomy_scraper (+http://www.yourdomain.com)'
 

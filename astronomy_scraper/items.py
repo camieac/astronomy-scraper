@@ -35,10 +35,17 @@ class DayConditions(scrapy.Item):
     twil_civil_start = scrapy.Field()
     twil_civil_end = scrapy.Field()
 
+    # Day weather details
+    temp_high = scrapy.Field()
+    temp_low = scrapy.Field()
+    weather_description = scrapy.Field()
+    wind_mph = scrapy.Field()
+    wind_direction = scrapy.Field()
+    humidity = scrapy.Field()
+    precipitation_chance = scrapy.Field()
+    feels_like = scrapy.Field()
 
 class MoonPhaseSnippet(scrapy.Item):
     moon_phase_date = scrapy.Field()
     moon_phase_time = scrapy.Field()
     moon_phase_duration = scrapy.Field()
-
-    
